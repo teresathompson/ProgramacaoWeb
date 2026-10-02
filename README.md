@@ -10,6 +10,13 @@ Repositorio de exercicios praticos de HTML e CSS da Unidade 1 de Programacao Web
 - **Aula 4:** [aula4exemploportfolioimagemvideo.html](aula4exemploportfolioimagemvideo.html) e [aula4exemplovideo.html](aula4exemplovideo.html) - portfolio, imagens e video.
 - **Aula 5:** [aula5cadastro.html](aula5cadastro.html), [aula5horarios.html](aula5horarios.html), [aula5perfildrsplat.html](aula5perfildrsplat.html) e [aulas5homeperfil.html](aulas5homeperfil.html) - paginas de cadastro, horarios e perfil da Clinica Heaven's Gate.
 
+## Imagens da clinica
+
+- [PgCadastroClinica.png](PgCadastroClinica.png)
+- [PgHomeClinica.png](PgHomeClinica.png)
+- [PgHorarioAtendimentoClinica.png](PgHorarioAtendimentoClinica.png)
+- [PgPerfilMedClinica.png](PgPerfilMedClinica.png)
+
 ## Como visualizar
 
 Abra qualquer arquivo `.html` em um navegador. Nao e necessario instalar dependencias nem executar um processo de compilacao. As paginas que usam estilos e imagens dependem dos arquivos locais `style.css` e `.png` incluidos neste repositorio.
