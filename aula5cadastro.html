@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro para Consulta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post" class="cadastro">
+        <fieldset>
+            <legend>Cadastro</legend>
+        
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required minlength="3" maxlength="100">
+       
+        <p>                  
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Informe um email válido">
+        </p>
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required pattern="\d{10,11}" title="Informe um telefone válido com 10 ou 11 dígitos">
+        </p>
+        <p>
+            <label for="endereco">Endereço:</label><br/>
+            <input type="text" id="endereco" name="endereco" required minlength="5" maxlength="200">
+            <select id="cidade" name="cidade" required>
+                <option value="">Selecione a cidade</option>
+                <option value="cidade1">Campinas</option>
+                <option value="cidade2">Jaguariúna</option>
+                <option value="cidade3">São Paulo</option>
+                <option value="cidade4">Hortolândia</option>
+                <option value="cidade5">Holambra</option>
+            </select>
+        </p>
+        <p>                 
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}" title="A senha deve ter no mínimo 6 caracteres e conter letras maiúsculas, minúsculas, números e caracteres especiais" minlength="6">
+        </p>
+         </fieldset>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+<nav class="navbar">
+    <a href="aulas5homeperfil.html">Voltar para a página inicial</a>
+    <a href="aula5horarios.html">Ver horários disponíveis</a>
+</nav>
+</body>
+</html>
