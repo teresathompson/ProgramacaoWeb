@@ -12,6 +12,8 @@ Repositorio de exercicios praticos de HTML e CSS da Unidade 1 de Programacao Web
 
 ## Imagens da clinica
 
+![alt text](image.png)
+
 - [PgCadastroClinica.png](PgCadastroClinica.png)
 - [PgHomeClinica.png](PgHomeClinica.png)
 - [PgHorarioAtendimentoClinica.png](PgHorarioAtendimentoClinica.png)
